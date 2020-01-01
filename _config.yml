@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: 冬冬博客
+subtitle: 爱生活！爱分享！
+description: '冬冬博客'
+keywords: 冬冬,博客,hexo,icarus,php,laravel,mysql,javascript,vue
+author: 冬冬
+language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://lddblog.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -32,8 +32,9 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year/:month-:day-:title.md # File name of new posts
 default_layout: post
+auto_spacing: true
 titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
@@ -64,7 +65,19 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  未分类: uncategorized
+  VUE: vue
+  PHP: php
+  Laravel: laravel
+  MySQL: mysql
+  版本控制: VCS
 tag_map:
+  VUE: vue
+  PHP: php
+  Laravel: laravel
+  MySQL: mysql
+  GIT: git
+  SVN: svn
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -98,4 +111,6 @@ theme: icarus
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://git.dev.tencent.com/lddtime/hexo.git
+  branch: master
