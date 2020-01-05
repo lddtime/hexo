@@ -66,18 +66,24 @@ index_generator:
 default_category: uncategorized
 category_map:
   未分类: uncategorized
+  JavaScript: javascript
   VUE: vue
   PHP: php
   Laravel: laravel
   MySQL: mysql
   版本控制: VCS
+  正则: regex
 tag_map:
+  API: api
+  JavaScript: javascript
   VUE: vue
   PHP: php
   Laravel: laravel
   MySQL: mysql
   GIT: git
   SVN: svn
+  正则: regex
+  百度编辑器: ueditor
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
