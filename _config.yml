@@ -65,25 +65,29 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  未分类: uncategorized
   JavaScript: javascript
-  VUE: vue
-  PHP: php
   Laravel: laravel
   MySQL: mysql
+  Mac: mac
+  PHP: php
+  Windows: windows
+  VUE: vue
   版本控制: VCS
+  未分类: uncategorized
   正则: regex
 tag_map:
   API: api
-  JavaScript: javascript
-  VUE: vue
-  PHP: php
-  Laravel: laravel
-  MySQL: mysql
   GIT: git
+  JavaScript: javascript
+  Laravel: laravel
+  Mac: mac
+  MySQL: mysql
+  PHP: php
+  Windows: windows
   SVN: svn
-  正则: regex
+  VUE: vue
   百度编辑器: ueditor
+  正则: regex
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
