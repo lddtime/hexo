@@ -39,6 +39,23 @@ Mac 装机清单：
 
 简介：无需重启即可在 Mac 上运行 Windows 的应用程序，具有速度最快、操作最简单且功能最强大的优点。包括 30 余种实用工具，可简化 Mac 和 Windows 上的日常任务。
 
+### Sequel Pro
+
+官网：<http://www.sequelpro.com>
+
+简介：Sequel Pro 是一个快速，易于使用的 Mac 数据库管理应用程序，用于处理 MySQL 和 MariaDB 数据库。
+
+> 注：下载 build 版
+
+相关链接：
+- <https://sequelpro.com/test-builds>
+
+### Spectacle
+
+官网：<https://spectacleapp.com>
+
+简介：Spectacle 可以帮助你轻松整理窗口，而无需使用鼠标。
+
 ### VirtualBox
 
 官网：<https://www.virtualbox.org>
