@@ -127,5 +127,5 @@ theme: icarus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://git.dev.tencent.com/lddtime/hexo.git
+  repo: https://e.coding.net/lddtime/hexo.git
   branch: master
