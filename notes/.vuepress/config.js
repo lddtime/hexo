@@ -7,13 +7,17 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ],
     themeConfig: {
+        repo: 'lddtime/hexo',
+        docsDir: 'notes',
+        editLinks: true,
+        editLinkText: '帮我改善此页面！',
+        lastUpdated: '上次更新',
         smoothScroll: true,
         nav: [
             { text: '博客首页', link: 'https://www.lddblog.com' },
             { text: '编程技巧', link: '/code/' },
             { text: '工具使用', link: '/tools/' },
             { text: '开发指南', link: '/guide/' },
-            { text: 'GitHub', link: 'https://github.com/lddtime' },
         ],
         sidebar: {
             '/code/': getCodeSidebar(),
@@ -39,6 +43,13 @@ function getToolsSidebar () {
             collapsable: false,
             children: [
                 'Homestead/enable-nfs'
+            ]
+        },
+        {
+            title: 'Postman',
+            collapsable: false,
+            children: [
+                'Postman/variables-list'
             ]
         }
     ]
