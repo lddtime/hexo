@@ -1,6 +1,7 @@
 ---
 title: 百度编辑器（ueditor）踩坑，图片转存无法使用
 date: 2018-02-01 00:00:00
+cover: /thumbs/ueditor.png
 thumbnail: /thumbs/ueditor.png
 toc: true
 categories:

@@ -4,7 +4,7 @@
 
 # Site
 title: 冬冬博客
-subtitle: 爱生活！爱分享！
+subtitle: 草在结它的种子，风在摇它的叶子，我们站着，不说话，就十分美好！
 description: '冬冬博客'
 keywords: 冬冬,博客,hexo,icarus,php,laravel,mysql,javascript,vue
 author: 冬冬
@@ -127,5 +127,5 @@ theme: icarus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://e.coding.net/lddtime/hexo.git
-  branch: master
+  repo: git@github.com:lddtime/hexo.git
+  branch: gh-pages

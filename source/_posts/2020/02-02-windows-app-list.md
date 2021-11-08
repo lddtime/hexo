@@ -1,6 +1,7 @@
 ---
 title: Windows 装机清单
 date: 2020-02-02 05:30:12
+cover: /images/2020/windows-start.jpg
 thumbnail: /images/2020/windows-start.jpg
 toc: true
 categories:

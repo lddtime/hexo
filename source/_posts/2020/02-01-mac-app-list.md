@@ -1,6 +1,7 @@
 ---
 title: Mac 装机清单
 date: 2020-02-01 05:44:04
+cover: /images/2020/macos-launchpad.jpg
 thumbnail: /images/2020/macos-launchpad.jpg
 toc: true
 categories:

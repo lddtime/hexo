@@ -1,6 +1,8 @@
 module.exports = {
+    base: '/notes/',
     title: '🤏 一点笔记',
     description: '手摸手做笔记，记录编程技巧，工具使用，开发指南',
+    dest: './public/notes',
     head: [
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
