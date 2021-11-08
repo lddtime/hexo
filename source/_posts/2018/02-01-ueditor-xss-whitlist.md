@@ -1,7 +1,7 @@
 ---
 title: 百度编辑器（ueditor）踩坑，图片转存无法使用
 date: 2018-02-01 00:00:00
-thumbnail: /images/2018/ueditor.png
+thumbnail: /thumbs/ueditor.png
 toc: true
 categories:
     - [PHP]
@@ -22,6 +22,8 @@ tags:
 默认情况下，从 Word 中复制的内容粘贴在编辑器时，图片不会自动上传保存，除非单独复制粘贴图片。
 
 但是在官方 Demo 及演示中，Word 中的图片并不会变为上图中的提示贴图，而是变为尺寸与原图比例一致的一片空白。
+
+{% img /images/2018/ueditor.png '"title ueditor" "alt ueditor"' %}
 
 与此雷同的一个问题是，当你插入一个锚点，点击 `html` 视图，发现标签一片空白，再切回来时锚点又不见了。
 
